@@ -93,7 +93,10 @@ sales-promotion-analysis/
 
 ---
 
-## 🚀 Future Improvements
-- Add larger real-world dataset (Kaggle)  
-- Build interactive dashboard using Power BI  
-- Include profit and margin analysis  
+## 🔗 Real-World Application
+
+The concepts and KPIs explored in this analysis are applied in a real-world business scenario:
+
+👉 https://github.com/tanmay-sahu-411/sales-promotions-analytics-atliq-mart
+
+This project demonstrates how promotion analysis concepts such as incremental revenue, discount impact, and uplift are used in a complete business dashboard and decision-making context.
