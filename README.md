@@ -1,52 +1,99 @@
 # 📊 Sales Promotion Analysis
 
-## 📌 Overview
-This project analyzes the impact of promotional discounts on sales performance.
+## 🚀 Project Type
+Exploratory Data Analysis (EDA) & Business Analysis
 
-The goal is to understand whether promotions actually improve business outcomes such as revenue and demand.
+---
+
+## 📌 Problem Statement
+Businesses run promotional campaigns by offering discounts to increase sales. However, it is important to analyze whether these promotions actually improve business performance or simply reduce profit margins.
 
 ---
 
 ## 🎯 Objective
-- Evaluate the impact of promotions on revenue and units sold
-- Identify top-performing products and regions
-- Analyze how discount levels affect sales
-- Understand customer response to promotions
+- Evaluate the impact of promotions on revenue and demand  
+- Identify top-performing products and regions  
+- Analyze how discount levels affect sales  
+- Understand customer response to promotions  
 
 ---
 
 ## 📊 Dataset
-The dataset contains:
-- Product information (Headphones, Laptop, Keyboard, Mouse)
-- City (Bangalore, Delhi, Mumbai)
-- Units sold during promotion
-- Original price and promotional price
+The dataset contains sales data during a promotion period, including:
+
+- Products: Headphones, Laptop, Keyboard, Mouse  
+- Cities: Bangalore, Delhi, Mumbai  
+- Metrics: Units Sold, Original Price, Promotional Price  
 
 ---
 
 ## 🧠 Analysis Performed
-- Calculated Promotion Revenue
-- Analyzed product-level performance
-- Compared sales across regions
-- Studied discount impact on demand
-- Identified sales trends over time
+
+### 1. KPI Calculation
+- Promotion Revenue  
+- Units Sold  
+- Discount Percentage  
+
+### 2. Product-Level Analysis
+- Compared revenue and demand across products  
+- Identified products with highest promotion impact  
+
+### 3. Region-Level Analysis
+- Analyzed performance across different cities  
+- Identified high-performing markets  
+
+### 4. Discount Impact Analysis
+- Studied relationship between discount levels and sales  
+- Evaluated effectiveness of pricing strategy  
+
+### 5. Time-Based Analysis
+- Analyzed sales trends across different days  
+- Identified peak sales periods  
+
+---
+
+## 📈 Key Insights
+
+- Headphones generated the highest revenue, indicating strong demand during promotions  
+- Metro cities like Bangalore and Delhi contributed significantly to total sales  
+- Higher discounts increased demand, but not always proportionally  
+- Some products showed stronger response to promotions than others  
+- Sales performance varied across different days, indicating timing impact  
+
+---
+
+## 📌 Conclusion
+
+Promotions increase demand, but their effectiveness depends on product type, region, and discount strategy. Businesses should focus on optimizing discount levels rather than maximizing them.
 
 ---
 
 ## 🛠 Tools Used
-- Python
-- Pandas
-- Jupyter Notebook
+- Python  
+- Pandas  
+- Jupyter Notebook  
 
 ---
 
-## 📈 Key Focus
-This project focuses on understanding the trade-off between:
-- Discount offered
-- Increase in demand
-- Overall business performance
+## 📁 Project Structure
 
 ---
 
-## 🚀 Conclusion
-Promotions can increase demand, but the effectiveness depends on the discount level, product type, and region. Proper analysis helps in making better business decisions.
+sales-promotion-analysis/
+│
+├── data/
+│ └── promotion_data.csv
+│
+├── notebooks/
+│ ├── 01_create_dataset.ipynb
+│ └── 02_analysis_and_kpis.ipynb
+│
+├── README.md
+└── .gitignore
+
+---
+
+## 🚀 Future Improvements
+- Add larger real-world dataset (Kaggle)  
+- Build interactive dashboard using Power BI  
+- Include profit and margin analysis  
