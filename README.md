@@ -77,21 +77,19 @@ Promotions increase demand, but their effectiveness depends on product type, reg
 
 ## 📁 Project Structure
 
----
-
+```
 sales-promotion-analysis/
 │
 ├── data/
-│ └── promotion_data.csv
+│   └── promotion_data.csv
 │
 ├── notebooks/
-│ ├── 01_create_dataset.ipynb
-│ └── 02_analysis_and_kpis.ipynb
+│   ├── 01_create_dataset.ipynb
+│   └── 02_analysis_and_kpis.ipynb
 │
 ├── README.md
 └── .gitignore
-
----
+```
 
 ## 🔗 Real-World Application
 
